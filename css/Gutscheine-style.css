@@ -1,0 +1,453 @@
+@charset "UTF-8";
+body {
+  background: #0F102E;
+  background-image: url("../img/bg2.svg");
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.gutscheine-sektion {
+  max-width: 1220px;
+  margin: 50px auto;
+}
+.gutscheine-sektion:first-of-type {
+  margin-top: 150px;
+}
+.gutscheine-sektion:last-of-type {
+  margin-bottom: 150px;
+}
+.gutscheine-sektion h1 {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto" sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.gutscheine-sektion .gutscheine-block {
+  background: #1C1944;
+  padding: 52px;
+  border-radius: 45px;
+}
+.gutscheine-sektion .gutscheine-block .gutscheine-info {
+  text-align: left;
+  color: rgba(245, 245, 245, 0.8);
+  font-family: "Urbanist" sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 32px;
+}
+.gutscheine-sektion .gutscheine-block .gutscheine-info a {
+  color: #ffffff;
+  padding: 8px 32px;
+  background-color: #494AD8;
+  border-radius: 40px;
+}
+.gutscheine-sektion .gutscheine-block .gutscheine-info p {
+  margin-top: 50px;
+  max-width: 520px;
+}
+
+.tageskarte-section {
+  max-width: 1220px;
+  margin: 160px auto;
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.tageskarte-section h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+.tageskarte-section .preis-tages-list {
+  width: 590px;
+  padding: 50px;
+  background: #1C1944;
+  border-radius: 30px;
+  color: #ffffff;
+}
+.tageskarte-section .preis-tages-list .preis-liste-text h2 {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 32px;
+  background: #494AD8;
+  border-radius: 40px;
+  width: 130px;
+}
+.tageskarte-section .preis-tages-list .preis-liste-text h3 {
+  margin-left: 147px;
+  align-self: flex-end;
+}
+.tageskarte-section .preis-tages-list .preis-liste {
+  margin-top: 30px;
+}
+.tageskarte-section .preis-tages-list .preis-liste li {
+  margin-bottom: 20px;
+}
+.tageskarte-section .preis-tages-list .preis-liste li:last-of-type {
+  margin-bottom: 0;
+}
+
+.geburstagsparkarte-section {
+  max-width: 1220px;
+  margin: auto;
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.geburstagsparkarte-section h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards {
+  width: 600px;
+  color: #ffffff;
+  background: #1C1944;
+  border-radius: 35px;
+  padding: 50px 32px;
+  margin-top: 30px;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-top-text h2 {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 32px;
+  background: #494AD8;
+  border-radius: 40px;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-top-text .geburstagsparkarte-top-text-tages {
+  margin-right: 20px;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-top-text h3 {
+  align-self: flex-end;
+  width: 140px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-first-list {
+  margin-top: 7px;
+  padding: 18px;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-first-list ul li {
+  margin-bottom: 16px;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-first-list ul li:last-of-type {
+  margin-bottom: 0;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-first-list .geburstagsparkarte-lisl-preice ul {
+  text-align: center;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-first-list .geburstagsparkarte-lisl-preice ul:nth-child(1) {
+  padding-right: 45px;
+  border-right: 1px solid #ffffff;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-first-list .geburstagsparkarte-lisl-preice ul:nth-child(2) {
+  margin-left: 45px;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-second-list {
+  background: #0F102E;
+  border-radius: 15px;
+  padding: 18px;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-second-list li {
+  margin-top: 16px;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-second-list li:first-of-type {
+  margin-top: 0;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-second-list .geburstagsparkarte-cards-second-list-preise {
+  max-width: 160px;
+  text-align: center;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-second-list .geburstagsparkarte-cards-second-list-preise ul:first-of-type {
+  margin-right: 80px;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-third-list {
+  padding-top: 35px;
+  max-width: 410px;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-third-list ul {
+  text-align: center;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-third-list ul li {
+  margin-top: 16px;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-third-list ul li:first-of-type {
+  margin-top: 0;
+}
+.geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-third-list .geburstagsparkarte-cards-third-rewards-list ul:nth-child(2) {
+  text-align: left;
+  margin-left: 12px;
+}
+
+.dauerkarten-section .dauerkarten-container {
+  margin: 160px auto;
+  max-width: 1220px;
+  color: #ffffff;
+}
+.dauerkarten-section .dauerkarten-container h1 {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards {
+  width: 350px;
+  background: #1C1944;
+  padding: 50px 30px;
+  border-radius: 40px;
+}
+.dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards li {
+  margin-bottom: 15px;
+}
+.dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards li:last-of-type {
+  margin-bottom: 0;
+}
+.dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards h2 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 40px;
+  background: #494AD8;
+  width: 150px;
+  border-radius: 32px;
+  padding: 5px 25px;
+  color: #ffffff;
+  font-family: "Alasta", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+}
+.dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards .dauerkarten-cards-preislist {
+  background: #0F102E;
+  padding: 20px;
+  border-radius: 14px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+}
+.dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards .dauerkarten-cards-preislist .dauerkarten-cards-preislist-cost {
+  width: 100px;
+}
+.dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards .dauerkarten-cards-kurslist {
+  padding: 0 10px 0 20px;
+  margin-top: 18px;
+}
+.dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards .dauerkarten-cards-kurslist .dauerkarten-cards-kurslist-rside {
+  text-align: center;
+}
+@media (min-width: 1040px) {
+  .dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards:nth-child(2) {
+    width: 450px;
+    height: 450px;
+    background: #1C1944;
+    padding: 60px 35px;
+    border-radius: 40px;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+  }
+  .dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards:nth-child(2) li {
+    margin-bottom: 20px;
+  }
+  .dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards:nth-child(2) li:last-of-type {
+    margin-bottom: 0;
+  }
+  .dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards:nth-child(2) h2 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    background: #494AD8;
+    width: 200px;
+    border-radius: 32px;
+    padding: 8px 30px;
+    color: #ffffff;
+    font-family: "Alasta", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards:nth-child(2) .dauerkarten-cards-preislist {
+    background: #0F102E;
+    padding: 27px;
+    border-radius: 14px;
+  }
+  .dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards:nth-child(2) .dauerkarten-cards-preislist .dauerkarten-cards-preislist-cost {
+    width: 100px;
+  }
+  .dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards:nth-child(2) .dauerkarten-cards-kurslist {
+    padding: 0 20px;
+    margin-top: 23px;
+  }
+  .dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards:nth-child(2) .dauerkarten-cards-kurslist .dauerkarten-cards-kurslist-rside {
+    text-align: center;
+  }
+}
+
+.accordion-section {
+  margin-top: 160px;
+}
+.accordion-section h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700px;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+.accordion-section .accordion-block {
+  max-width: 1220px;
+  margin: auto;
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+.accordion-section .accordion-block:first-of-type h2 {
+  margin-top: 0;
+}
+.accordion-section .accordion-block h2 {
+  margin: 80px 50px;
+  padding: 8px 32px;
+  background: #494AD8;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 40px;
+}
+.accordion-section .accordion-block .accordion {
+  margin-bottom: 10px;
+}
+.accordion-section .accordion-block .accordion .accordion-btn {
+  position: relative;
+  background-color: #1C1944;
+  border-radius: 44px;
+  padding: 52px;
+  text-align: left;
+  cursor: pointer;
+  font-weight: bold;
+  list-style-image: none;
+}
+.accordion-section .accordion-block .accordion .accordion-btn::-webkit-details-marker {
+  background: none;
+  color: transparent;
+}
+.accordion-section .accordion-block .accordion .accordion-btn::after {
+  content: "›";
+  position: absolute;
+  top: 50%;
+  right: 52px;
+  font-size: 35px;
+  font-family: monospace;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #494AD8;
+  transform: translate(0%, -50%) rotate(0deg);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+  padding-left: 2px;
+  justify-content: center;
+  font-weight: normal;
+  transition: all 1s ease;
+}
+.accordion-section .accordion-block .accordion .accordion-content {
+  background-color: #1C1944;
+  padding: 10px 52px 52px 52px;
+}
+.accordion-section .accordion-block .accordion .accordion-content a {
+  color: #FF9262;
+}
+.accordion-section .accordion-block .accordion .accordion-content > * {
+  padding: 10px 20px;
+}
+.accordion-section .accordion-block .accordion[open] .accordion-btn {
+  border-radius: 44px 44px 0 0;
+}
+.accordion-section .accordion-block .accordion[open] .accordion-btn::after {
+  transform: translate(0%, -50%) rotate(90deg);
+}
+.accordion-section .accordion-block .accordion[open] .accordion-content {
+  border-radius: 0 0 44px 44px;
+}
+.accordion-section .accordion-block .accordion[open] summary ~ * {
+  overflow: hidden;
+  animation: heightUp 0.2s ease-in-out;
+}
+@keyframes heightUp {
+  0% {
+    max-height: 0;
+  }
+  100% {
+    max-height: 2000px;
+  }
+}
+
+.download-section .download-block {
+  margin: 160px auto;
+  max-width: 1220px;
+}
+.download-section .download-block h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700px;
+  font-size: 60px;
+  margin-bottom: 35px;
+}
+.download-section .download-block .download-info-block .download-info-card {
+  margin: 15px 0;
+  width: 384px;
+  padding: 60px 50px;
+  background: #1C1944;
+  border-radius: 44px;
+}
+.download-section .download-block .download-info-block .download-info-card .download-card-text {
+  text-align: center;
+}
+.download-section .download-block .download-info-block .download-info-card .download-card-text h2 {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #ffffff;
+}
+.download-section .download-block .download-info-block .download-info-card .download-card-text p {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+.download-section .download-block .download-info-block .download-info-card .download-card-btn {
+  margin: 70px auto 0;
+  text-align: center;
+  max-width: 220px;
+}
+.download-section .download-block .download-info-block .download-info-card .download-card-btn a {
+  padding: 15px 50px;
+  background: linear-gradient(to bottom, #494AD8, #6A6BD8);
+  box-shadow: 0px 1px 6px white;
+  border-radius: 65px;
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #ffffff;
+}/*# sourceMappingURL=Gutscheine-style.css.map */
