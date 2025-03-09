@@ -25,6 +25,9 @@ body{
         background: #1C1944;
         padding: 52px;
         border-radius: 45px;
+        .adaptive-img-true{
+            display: none;
+        }
         .gutscheine-info{
             text-align: left;
             color: rgba(245, 245, 245, 80%);
@@ -357,6 +360,9 @@ body{
             font-weight: bold;
             list-style-image: none;
             
+            h4{
+                max-width: 1000px;
+            }
         
         &::-webkit-details-marker {
           background: none;

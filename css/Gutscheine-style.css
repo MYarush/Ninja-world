@@ -29,6 +29,9 @@ body {
   padding: 52px;
   border-radius: 45px;
 }
+.gutscheine-sektion .gutscheine-block .adaptive-img-true {
+  display: none;
+}
 .gutscheine-sektion .gutscheine-block .gutscheine-info {
   text-align: left;
   color: rgba(245, 245, 245, 0.8);
@@ -341,6 +344,9 @@ body {
   cursor: pointer;
   font-weight: bold;
   list-style-image: none;
+}
+.accordion-section .accordion-block .accordion .accordion-btn h4 {
+  max-width: 1000px;
 }
 .accordion-section .accordion-block .accordion .accordion-btn::-webkit-details-marker {
   background: none;

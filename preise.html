@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/config.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menumobile.css">
     <link rel="stylesheet" href="css/Gutscheine-style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=DM+Sans:ital,opsz@0,9..40;1,9..40&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -16,32 +18,29 @@
 <body>
     <header>
         <div class="container mauto dflex justify_between">
-            <a href="#"><img src="img/LogoNinjaWorld.png" alt=""></a>
-            <nav>
-                <ul class="menu dflex justify_between">
-                    <li>
-                        <a href="../index.html">STARTSEITE</a>
-                    </li>
-                    <li>
-                        <a href="../gutscheine.html">GUTSCHEINE</a>
-                    </li>
-                    <li>
-                        <a href="../sportarten.html">SPORTARTEN</a>
-                    </li>
-                    <li class="active-page-nav">
-                        <a href="../preise.html">PREISE</a>
-                    </li>
-                    <li>
-                        <a href="../kurse.html">KURSE</a>
-                    </li>
-                    <li>
-                        <a href="../faq.html">FAQ</a>
-                    </li>
-                </ul>
-            </nav>
-            <a href="#" class="Btn">Registrieren</a>
-        </div>
-    </header>
+            <a href="#" class="logo"><img src="img/LogoNinjaWorld.png" alt=""></a>
+			<div class="nav-but-wrap">
+				<div class="menu-icon hover-target">
+					<span class="menu-icon__line menu-icon__line-left"></span>
+					<span class="menu-icon__line"></span>
+					<span class="menu-icon__line menu-icon__line-right"></span>
+				</div>					
+			</div>
+            <div class="nav">
+                <div class="nav__content">
+                    <ul class="nav__list">
+                        <li class="nav__list-item"><a href="../index.html">STARTSEITE</a></li>
+                        <li class="nav__list-item"><a href="../gutscheine.html">GUTSCHEINE</a></li>
+                        <li class="nav__list-item"><a href="../sportarten.html">SPORTARTEN</a></li>
+                        <li class="nav__list-item active-nav"><a href="../preise.html">PREISE</a></li>
+                        <li class="nav__list-item"><a href="../kurse.html">KURSE</a></li>
+                        <li class="nav__list-item"><a href="../faq.html">FAQ</a></li>
+                        <li class="nav__list-item"><a href="#" class="Btn">Registrieren</a></li>
+                    </ul>
+                </div>
+            </div>						
+		</div>				
+	</header>
     <main>
         <section class="tageskarte-section">
             <h1>Tageskarte</h1>
@@ -560,5 +559,8 @@
             </div>  
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+    crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

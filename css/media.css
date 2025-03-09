@@ -1,0 +1,392 @@
+@media (max-width: 885px) {
+  body header .container .nav ul {
+    display: none;
+  }
+  body header .container {
+    margin: 0 30px;
+  }
+  body header .container .nav ul li.active-nav a::after {
+    display: none;
+  }
+  .nav-but-wrap {
+    display: inline-block;
+  }
+  .nav {
+    position: fixed;
+    z-index: 11;
+    left: 0;
+    top: 0;
+  }
+  .nav:before, .nav:after {
+    content: "";
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(20, 21, 26, 0.6);
+    border-bottom-left-radius: 200%;
+    z-index: -1;
+    transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+    transform: translateX(100%) translateY(-100%);
+  }
+  .nav:after {
+    background: rgb(9, 9, 12);
+    transition-delay: 0s;
+  }
+  .nav:before {
+    transition-delay: 0.2s;
+  }
+  .nav__content {
+    position: fixed;
+    visibility: visible;
+    top: 50%;
+    margin-top: 20px;
+    transform: translate(0%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+  .nav__list {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+  }
+  .nav__list-item {
+    position: relative;
+    display: block;
+    transition-delay: 0.8s;
+    opacity: 1;
+    text-align: center;
+    overflow: hidden;
+    transform: translate(100px, 0%);
+    transition: opacity 0.2s ease, transform 0.3s ease;
+  }
+  .nav__list-item a {
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 2;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 200ms linear;
+  }
+  .nav__list-item a:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    margin-top: -2px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    z-index: 1;
+    transition: all 200ms linear;
+  }
+  .nav__list-item a:hover:after {
+    height: 4px;
+    opacity: 1;
+    left: 0;
+    width: 100%;
+  }
+  .nav__list-item a:hover {
+    color: rgb(255, 255, 255);
+  }
+  .nav__list-item.active-nav a {
+    color: rgb(255, 255, 255);
+  }
+  .nav__list-item.active-nav a:after {
+    height: 4px;
+    opacity: 1;
+    left: 0;
+    width: 100%;
+  }
+  body main .slaider-section {
+    max-width: 600px;
+  }
+  .gutscheine-sektion .gutscheine-block .adaptive-img-true {
+    display: block;
+  }
+  .adaptive-img-false {
+    display: none;
+  }
+  .custom-navigation {
+    display: none;
+  }
+  body main .kontakt-section .kontent-block {
+    max-width: 800px;
+  }
+  body main .kontakt-section .kontent-block .kontakt-block .kontakt-timetable {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body main .kontakt-section .kontent-block .kontakt-block .kontakt-timetable article {
+    margin: 0 30px;
+    padding: 15px 0 0 0;
+  }
+  body main .kontakt-section .kontent-block .kontakt-block .kontakt-links article {
+    margin: 0 30px;
+  }
+  body main .kontakt-section .kontent-block .kontakt-block .kontakt-links article:nth-child(3), body main .kontakt-section .kontent-block .kontakt-block .kontakt-links article:nth-child(4) {
+    margin-top: 30px;
+  }
+  body main .kontakt-section .kontent-block .kontakt-block .kontakt-links {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gutscheine-sektion .gutscheine-block {
+    display: block;
+    margin: auto;
+    max-width: 700px;
+  }
+  .gutscheine-sektion .gutscheine-block .gutscheine-info p {
+    margin: 50px;
+    max-width: 600px;
+  }
+  .gutscheine-sektion .gutscheine-block .gutscheine-img img {
+    width: 100%;
+  }
+  .accordion-section .accordion-block {
+    max-width: 800px;
+  }
+  .accordion-section .accordion-block .accordion .accordion-btn h4 {
+    max-width: 600px;
+  }
+  .download-info-block {
+    margin: auto;
+    max-width: 800px;
+  }
+  .preis-karte {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .preis-karte .preis-tages-list {
+    margin-top: 50px;
+  }
+  .geburstagsparkarte-container {
+    justify-content: center;
+  }
+  .dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dauerkarten-section .dauerkarten-container .dauerkarten-container-cards-block .dauerkarten-cards {
+    margin: 30px 60px;
+  }
+  body footer .container .footer-middle .footer-middle-text {
+    width: 250px;
+  }
+  body footer .container .footer-middle .right-side {
+    margin-left: 50px;
+  }
+  body footer .container {
+    max-width: 700px;
+    margin: auto;
+  }
+  footer.container.footer-top.footer-top-text h3 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 9px;
+  }
+  footer.container.footer-top.footer-top-text a {
+    font-family: "Alata", "sans-serif";
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, #494AD8, #6A6BD8);
+    box-shadow: 0px 1px 6px white;
+    padding: 5px;
+    border-radius: 50px;
+  }
+}
+@media (max-width: 444px) {
+  body main .mainblock-section .main_block h2 {
+    font-size: 35px;
+  }
+  body main .mainblock-section .main_block {
+    max-width: 300px;
+    padding: 40px 0;
+    margin: auto;
+    text-align: center;
+  }
+  body main .slaider-section {
+    max-width: 300px;
+  }
+  body main .slaider-section .slider-text {
+    font-size: 25px;
+    margin: 65px;
+  }
+  body main .kontakt-section .kontent-block h2 {
+    font-size: 35px;
+  }
+  body main .kontakt-section .kontent-block .kontakt-block h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  body main .kontakt-section .kontent-block .kontakt-block {
+    padding: 45px;
+  }
+  body main .kontakt-section .kontent-block .kontakt-block .kontakt-timetable article {
+    margin: 10px 0;
+  }
+  body main .kontakt-section .kontent-block .kontakt-block .kontakt-timetable {
+    justify-content: space-between;
+  }
+  body main .kontakt-section .kontent-block .kontakt-block .kontakt-timetable {
+    margin: 25px 0 50px 0;
+  }
+  body main .kontakt-section .kontent-block .kontakt-block .kontakt-links article {
+    margin: 0;
+  }
+  body main .kontakt-section .kontent-block .kontakt-block .kontakt-links article:nth-child(2), body main .kontakt-section .kontent-block .kontakt-block .kontakt-links article:nth-child(3), body main .kontakt-section .kontent-block .kontakt-block .kontakt-links article:nth-child(4) {
+    margin-top: 30px;
+  }
+  body footer .container {
+    max-width: 440px;
+  }
+  body footer .container .footer-top {
+    max-width: 444px;
+  }
+  body footer .container .footer-top img {
+    display: none;
+  }
+  body footer .container .footer-top .footer-top-text {
+    display: block;
+    width: 444px;
+    margin: 0;
+    text-align: center;
+  }
+  body footer .container .footer-top .footer-top-text h3 {
+    margin-bottom: 30px;
+  }
+  body footer .container .footer-middle .right-side .footer-middle-img {
+    width: 246px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px auto;
+  }
+  body footer .container .footer-middle .footer-middle-text {
+    display: none;
+  }
+  body footer .container .footer-middle .right-side {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  body footer .container .footer-middle .right-side .footer-middle-img img {
+    margin-bottom: 15px;
+  }
+  .footer-middle-first-list {
+    margin-right: 30px;
+  }
+  .footer-bottom-img {
+    display: flex;
+  }
+  .footer-bottom {
+    margin: 65px 20px 0 20px;
+  }
+  .gutscheine-sektion .gutscheine-block {
+    max-width: 320px;
+  }
+  .gutscheine-sektion .gutscheine-block .gutscheine-info {
+    text-align: center;
+    font-size: 15px;
+  }
+  .gutscheine-sektion h1 {
+    font-size: 45px;
+  }
+  .gutscheine-sektion h1 {
+    padding: 30px;
+  }
+  .gutscheine-sektion .gutscheine-block {
+    padding: 30px;
+  }
+  .gutscheine-sektion .gutscheine-block .gutscheine-info p {
+    margin: 50px 0;
+  }
+  .tageskarte-section .preis-tages-list {
+    width: 300px;
+    padding: 30px;
+  }
+  .tageskarte-section .preis-tages-list .preis-liste-text h3 {
+    margin-left: 60px;
+  }
+  .tageskarte-section .preis-tages-list .preis-liste-text h2 {
+    padding: 8px 20px;
+  }
+  .tageskarte-section h1 {
+    font-size: 35px;
+  }
+  .geburstagsparkarte-section h1 {
+    font-size: 35px;
+  }
+  .geburstagsparkarte-section .geburstagsparkarte-cards {
+    width: 300px;
+    padding: 30px 20px;
+  }
+  .geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-top-text h2 {
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+  .geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-top-text .geburstagsparkarte-top-text-tages {
+    margin-right: 3px;
+    text-align: right;
+  }
+  .geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-top-text .geburstagsparkarte-top-text-tages h3 {
+    width: 65px;
+    font-size: 20px;
+  }
+  .geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-first-list {
+    margin-top: 7px;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  .geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-first-list .geburstagsparkarte-lisl-preice ul:nth-child(1) {
+    padding-right: 15px;
+    margin-left: 15px;
+  }
+  .geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-first-list .geburstagsparkarte-lisl-preice ul:nth-child(2) {
+    margin-left: 15px;
+  }
+  .geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-second-list {
+    margin-top: 30px;
+  }
+  .geburstagsparkarte-section .geburstagsparkarte-cards .geburstagsparkarte-cards-second-list .geburstagsparkarte-cards-second-list-preise ul:first-of-type {
+    margin-right: 10px;
+  }
+  .dauerkarten-section .dauerkarten-container h1 {
+    font-size: 35px;
+  }
+  .dauerkarten-cards-preislist-cost ul:first-of-type {
+    margin-left: 20px;
+  }
+  .accordion-section h1 {
+    font-size: 40px;
+  }
+  .accordion-section .accordion-block h2 {
+    margin: 60px auto;
+    padding: 8px 20px;
+    font-size: 23px;
+  }
+  .accordion-section .accordion-block .accordion .accordion-btn h4 {
+    max-width: 220px;
+    font-size: 16px;
+  }
+  .accordion-section .accordion-block .accordion .accordion-btn {
+    width: 340px;
+    margin: auto;
+    padding: 30px;
+  }
+  .accordion-section .accordion-block .accordion .accordion-btn::after {
+    width: 50px;
+    height: 50px;
+    right: 22px;
+  }
+  .download-section .download-block .download-info-block .download-info-card {
+    max-width: 320px;
+    margin: 15px auto;
+  }
+  .download-section .download-block .download-info-block .download-info-card .download-card-text h2 {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=media.css.map */

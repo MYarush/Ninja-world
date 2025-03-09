@@ -1,4 +1,5 @@
 body {
+  background: #0F102E;
   background-image: url("../img/mainpagebg.svg");
   background-repeat: no-repeat;
   background-position: right top;
@@ -15,13 +16,20 @@ body header .container {
   align-items: center;
   max-width: 1220px;
 }
-body header .container nav ul {
-  width: 764px;
+body header .container .logo {
+  position: relative;
+  z-index: 12;
 }
-body header .container nav ul li {
-  margin: 20.5px 0;
+body header .container .nav ul {
+  max-width: 1040px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-body header .container nav ul li a {
+body header .container .nav ul li {
+  margin: 20.5px 0 20.5px 56px;
+}
+body header .container .nav ul li a {
   font-family: "DM Sans", serif;
   font-optical-sizing: auto;
   font-size: 18px;
@@ -29,15 +37,13 @@ body header .container nav ul li a {
   font-style: normal;
   color: #A3A3A3;
 }
-body header .container nav ul li.active-page-nav {
-  margin: 13.5px 0;
-}
-body header .container nav ul li.active-page-nav a {
+body header .container .nav ul li.active-nav a {
   color: #F5F5F5;
   position: relative;
   display: inline-block;
+  margin: 13.5px 0;
 }
-body header .container nav ul li.active-page-nav a::after {
+body header .container .nav ul li.active-nav a::after {
   content: "";
   position: absolute;
   bottom: -15px;
@@ -48,6 +54,12 @@ body header .container nav ul li.active-page-nav a::after {
   background-color: white;
   border-radius: 50%;
 }
+body header .container .nav ul li:last-of-type {
+  margin-left: 90px;
+}
+body header .container .nav ul li:last-of-type a {
+  color: #FFF;
+}
 body header .container .Btn {
   color: #FFFFFF;
   font-family: "Alata", serif;
@@ -57,16 +69,16 @@ body header .container .Btn {
   background: rgba(217, 217, 217, 0.6);
   border-radius: 40px;
 }
-body header .main_block {
+body main .mainblock-section .main_block {
   max-width: 742px;
   padding: 130px 0;
   margin: 0 0 124px 112px;
 }
-body header .main_block h2 {
+body main .mainblock-section .main_block h2 {
   color: #D3D3D3;
   font-size: 80px;
 }
-body header .main_block p {
+body main .mainblock-section .main_block p {
   color: #FFFFFF;
   font-size: 24px;
   margin: 66px 0 54px 0;
@@ -75,7 +87,7 @@ body header .main_block p {
   font-weight: 400;
   font-style: normal;
 }
-body header .main_block a {
+body main .mainblock-section .main_block a {
   color: #FFFFFF;
   padding: 14.5px 82px;
   background: linear-gradient(to bottom, #494AD8, #6A6BD8);
@@ -148,8 +160,8 @@ body main .kontakt-section .kontent-block .kontakt-block .kontakt-links {
 body main .kontakt-section .kontent-block .kontakt-block .kontakt-links article {
   display: flex;
   align-items: center;
-  max-width: 260px;
-  max-height: 80px;
+  width: 260px;
+  height: 80px;
   background-color: rgba(211, 211, 211, 0.2);
   padding: 20px 20px;
   border-radius: 20px;
